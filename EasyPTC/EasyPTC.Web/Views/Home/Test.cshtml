@@ -1,0 +1,12 @@
+﻿@model EasyPTC.Web.Models.Person
+@{
+    ViewBag.Title = "Test";
+}
+
+@using (Html.BeginForm("Test", "Home", FormMethod.Post))
+{
+	@Html.TextBoxFor(m => m.Name);
+	@Html.TextBoxFor(m => m.Age);
+	<input type="submit" />
+}
+

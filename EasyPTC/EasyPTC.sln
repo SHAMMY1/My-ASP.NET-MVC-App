@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{300B76A0-144A-4452-B609-D7D826B600C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5EE64770-E64A-4C62-84A5-4971753F6D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPTC.Web", "EasyPTC.Web\EasyPTC.Web.csproj", "{8873D6CA-C5EC-4DCA-89B5-F49EE300992D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPTC.Web.Tests", "EasyPTC.Web.Tests\EasyPTC.Web.Tests.csproj", "{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{918B6CDB-4E58-494B-8956-375899ABCD91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8873D6CA-C5EC-4DCA-89B5-F49EE300992D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8873D6CA-C5EC-4DCA-89B5-F49EE300992D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8873D6CA-C5EC-4DCA-89B5-F49EE300992D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8873D6CA-C5EC-4DCA-89B5-F49EE300992D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8873D6CA-C5EC-4DCA-89B5-F49EE300992D} = {5EE64770-E64A-4C62-84A5-4971753F6D23}
+		{B72C40E2-1E4A-463B-B2C1-C43F6BAC58EE} = {5EE64770-E64A-4C62-84A5-4971753F6D23}
+		{918B6CDB-4E58-494B-8956-375899ABCD91} = {5EE64770-E64A-4C62-84A5-4971753F6D23}
+	EndGlobalSection
+EndGlobal
