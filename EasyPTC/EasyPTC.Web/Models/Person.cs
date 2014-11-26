@@ -8,9 +8,13 @@ namespace EasyPTC.Web.Models
 {
 	public class Person
 	{
-		[MinLength(5,ErrorMessage="TOO SHORT")]
+
 		public string Name { get; set; }
-		[Required]
+
+		public string Job { get; set; }
+
+		public DateTime RegisteredOn { get; set; }
+
 		public int Age { get; set; }
 	}
 }
